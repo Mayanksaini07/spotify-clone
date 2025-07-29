@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Spotify - Web Player: Music for everyone</title>
+    
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     
+   <!-- icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   <!-- Favicon -->
+   <link rel="icon" href="./assets/logo.png">
+    
+   <!-- Styles -->
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+            
+   <div class="main-container">
+       <!-- Horizontal navbar -->
+       <div class="horizontal-navbar">
+           <!-- logo -->
+           <div class="logo">
+               <img src="./assets/45cc6c91692a3665d97b570a3272132a-removebg-preview.png" alt="Spotify Logo">
+           </div>
+           <!-- search bar -->
+           <div class="search-section">
+               <div class="home-icon">
+                  <i class="fa-solid fa-house"></i>
+               </div>
+               <!-- Search-bar -->
+               <div class="search-bar">
+                   <i class="fas fa-search search-icon"></i>
+                   <input type="text" placeholder="What do you want to play?" class="search-input">
+                   <!-- vertical line -->
+                   <div class="vertical-line"></div> 
+                   <!-- browse icon -->
+                   <div class="browse-button">
+                       <i class="fa-solid fa-window-maximize"></i>
+                   </div>
+               </div>
+           </div>
+           <!-- user action -->
+           <div class="user-action">
+               <button class="side-btn">Premium</button>
+               <button  class="side-btn">Support</button>
+               <button  class="side-btn">Download</button>
+               <div class="vertical-divider"></div>
+               <button  class="sidemost-btn"><i class="fa-solid fa-arrow-down"></i>Install App</button>
+               <button  class="sidemost-btn">Sign-up</button>
+               <button class="login">Log in</button>
+           </div>
+       </div>
+
+       <!-- Content Area Wrapper -->
+       <div class="content-area">
+           <!-- Side Navbar -->
+           <div class="side-navbar">
+               <!-- sidebar-heading -->
+               <div class="sidebar-heading">
+                   <h4>Your Library</h4>
+                   <i class="fa-solid fa-plus "></i>
+               </div>
+
+               <!-- Sidebar-menu -->
+               <div class="sidebar-menu">
+                   <!-- First box creating -->
+                   <div class="playlist-box">
+                       <div class="playlist-content">
+                           <h3>Create your first playlist</h3>
+                           <p>It's easy, we'll help you</p>
+                           <button class="create-playlist">Create Playlist</button>
+                       </div>
+                   </div>
+                   <!-- Second box -->
+                   <div class="playlist-box">
+                       <div class="playlist-content">
+                           <h3>Let's find some podcast to follow</h3>
+                           <p>We'll keep you updated on new episodes</p>
+                           <button class="create-playlist">Browse podcasts</button>
+                       </div>
+                   </div>
+
+             </div>  <!-- sidebar -menu closing div -->
+
+             <!-- bottom links  -->
+
+                <div class="bottom-links">
+                    <a href="#">Legal</a>
+                    <a href="">Safety & Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <div class="bright-btn">
+                    <a href="#">Cookies</a>
+                </div>
+
+                <div class="language">
+                    <button class="language-selector"><i class="fa-solid fa-globe"></i>English</button>
+                </div>
+
+           </div>   <!-- side navbar closing div   -->
+
+           <!-- Main Content -->
+           <div class="main-content">
+                    <!-- main content heading -->
+                     <div class="main-content-heading">
+                            <h2>Trending songs</h2>
+                            <p>show all</p>
+                     </div> <!-- main-content-heading closing div-->
+
+                     <!-- Cards staring from here -->
+
+                         <div class="cards-container">
+                                <div class="card">
+                                        <img src="./new songs/Saiyaara-2-1.jpg" class="card-img" alt="">
+                                        <p class="music-name">Saiyarra(from saiyarra)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 
+                                 <div class="card">
+                                        <img src="./new songs/tum ho toh new.jpg" class="card-img" alt="">
+                                        <p class="music-name">Tum ho toh(from saiyarra)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                <div class="card">
+                                        <img src="./new songs/dhun-lyrics-758x426.webp" class="card-img" alt="">
+                                        <p class="music-name">Dhun(from saiyarra)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/barbaad.jpg" class="card-img" alt="">
+                                        <p class="music-name">Barbaad(from saiyarra)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/mismatched.jpg" class="card-img" alt="">
+                                        <p class="music-name">Pipni(from Mismatched)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/guru randhwa.jpg" class="card-img" alt="">
+                                        <p class="music-name">Sirra</p>
+                                        <p class="artist-name">Guru randhawa tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/jugraafiya-song-still.png" class="card-img" alt="">
+                                        <p class="music-name">Jugrafiya(from Super 30)</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/sapphire nwe.jpg" class="card-img" alt="">
+                                        <p class="music-name">Sapphire</p>
+                                        <p class="artist-name">Ed sherren , arijit singh...</p>
+                                </div>
+                                <div class="card">
+                                        <img src="./new songs/ghugroo.jpg" class="card-img" alt="">
+                                        <p class="music-name">Ghungroo(from WAR)</p>
+                                        <p class="artist-name">Ed sherren , arijit singh...</p>
+                                </div>
+                                <div class="card">
+                                        <img src="./new songs/hq720_2.jpg" class="card-img" alt="">
+                                        <p class="music-name">Sun toh(from mismatched)</p>
+                                        <p class="artist-name">Ed sherren , arijit singh...</p>
+                                </div>
+                                <div class="card">
+                                        <img src="./new songs/chedkhaniya.jpg" class="card-img" alt="">
+                                        <p class="music-name">Chedkhaniya(Bandish Bandits)</p>
+                                        <p class="artist-name">arijit singh...</p>
+                                </div>
+                                 <div class="card">
+                                        <img src="./new songs/paradise.jpg" class="card-img " id="Coldplay" alt="">
+                                        <p class="music-name">Paradisee</p>
+                                        <p class="artist-name">Coldplay..</p>
+                                </div>
+                         </div>
+
+<!-- second section of artist -->
+                     <div class="main-content-heading">
+                            <h2>Popular artists</h2>
+                            <p>show all</p>
+                     </div>
+
+                     <!-- Artist section start from here -->
+
+                    <div class="artist-container">
+
+                            <div class="artist">
+                                    <img src="./artist/A-3895034-1517157761-2697.jpg" alt="">
+                                    <p class="music-name">Pritam</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/aa.jpg" alt="">
+                                    <p class="music-name">Ar Rehaman</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/arijith singh.webp" alt="">
+                                    <p class="music-name">Arijith Singh</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/atif aslam.webp" alt="">
+                                    <p class="music-name">Atif Aslam</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/badshah.jpg" alt="">
+                                    <p class="music-name">Baadshah</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/shubh.jpg" alt="">
+                                    <p class="music-name">Shubh</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/Udit_Narayan_004_20241029065120_500x500.jpg" alt="">
+                                    <p class="music-name">Udit Narayan</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+
+                            <div class="artist">
+                                    <img src="./artist/664-amit-trivedi.jpg" alt="">
+                                    <p class="music-name">Amit Trivedi</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/anuv jain.jpg" alt="">
+                                    <p class="music-name">Anuv Jain</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="artist">
+                                    <img src="./artist/Raftaar.jpg" alt="">
+                                    <p class="music-name">Raftaar</p>
+                                    <p class="artist-name">Artist</p>
+                            </div>
+                       </div>
+                       <!-- section 3 of popular album -->
+
+                    <div class="main-content-heading">
+                            <h2>Popular albums and singles</h2>
+                            <p>show all</p>
+                     </div>
+
+                       <div class="cards-container">
+
+                        <div class="card">
+                                        <img src="./album/Aashiqui-2-Punjabi-2013-500x500.jpg" class="card-img" alt="">
+                                        <p class="music-name">Aashiqui 2</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/raviteja-g-yeh-jawaani-hai-deewani-albumart.jpg" class="card-img" alt="">
+                                        <p class="music-name">Ye Jawani Hai Dewaani</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/sanam.jpg" class="card-img" alt="">
+                                        <p class="music-name">Sanam Tri Kasam</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/finding her.jpg" class="card-img" alt="">
+                                        <p class="music-name">Finding Her</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/young goat.jpg" class="card-img" alt="">
+                                        <p class="music-name">Young Goat</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/making memories.jpg" class="card-img" alt="">
+                                        <p class="music-name">Making Memories</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/Moosetape.jpg" class="card-img" alt="">
+                                        <p class="music-name">MooseTape</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/Sicario.jpg" class="card-img" alt="">
+                                        <p class="music-name">Sicario</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                                 <div class="card">
+                                        <img src="./album/do patti.jpg" class="card-img" alt="">
+                                        <p class="music-name">Ranjhan</p>
+                                        <p class="artist-name">tanishk bagchi,faheem abdullah..</p>
+                                </div>
+
+                       </div>
+
+                       <!-- next section of featured charts -->
+                        
+                    <div class="main-content-heading">
+                            <h2>Featured Charts</h2>
+                            <p>show all</p>
+                     </div>
+
+                     <!-- top songs  -->
+
+                     <div class="featured-charts">
+
+                            <div class="chart">
+                                <img src="./assets/card1img.jpeg" alt="">
+                                <p class="charts-details">Your weekly updates of the most played tracks...</p>
+                            </div>
+
+                            <div class="chart">
+                                <img src="./assets/card5img.jpeg" alt="">
+                                <p class="charts-details">Your weekly updates of the most played tracks...</p>
+                            </div>
+
+                            <div class="chart">
+                                <img src="./assets/card6img.jpeg" alt="">
+                                <p class="charts-details">Your weekly updates of the most played tracks...</p>
+                            </div>
+                     </div>
+
+                     <!-- Footer -->
+
+                     <div class="footer">
+                            <div class="footer-box">
+                                    <div class="footer-links">
+                                            <h4>Company</h4>
+                                            <a href="#">About</a>
+                                            <a href="#">Jobs</a>
+                                            <a href="#">For the Records</a>
+                                    </div>
+                                    <div class="footer-links">
+                                            <h4>Communities</h4>
+                                            <a href="#">For Artist</a>
+                                            <a href="#">Developers</a>
+                                            <a href="#">Advertising</a>
+                                            <a href="#">Investors</a>
+                                            <a href="#">Vendors</a>
+                                    </div>
+                                    <div class="footer-links">
+                                            <h4>Useful Links</h4>
+                                            <a href="#">Support</a>
+                                            <a href="#">Free Mobile App</a>
+                                            <a href="#">Popular By Country</a>
+                                    </div>
+                                    <div class="footer-links">
+                                            <h4>Spotify Plans</h4>
+                                            <a href="#">Premium Individual</a>
+                                            <a href="#">Premium Duo</a>
+                                            <a href="#">Premium Family</a>
+                                            <a href="#">Premium Student</a>
+                                            <a href="#">Spotify Free</a>
+                                    </div>
+                                    <div class="spotify-icons">
+                                        <i class="fa-brands fa-instagram spotify-icons-main"></i>
+                                        <i class="fa-brands fa-twitter  spotify-icons-main"></i>
+                                        <i class="fa-brands fa-facebook  spotify-icons-main"></i>
+                                    </div>
+                            </div>
+                     </div>
+                    
+                     <div class="trademark-box">
+                        <p class="trademark">&copy 2025 Spotify AB</p>
+                     </div>
+
+           </div>  <!-- main content closiing div-->
+       </div>  <!-- content area closiing div-->
+       
+       <!-- music player -->
+       <div class="music-player">
+            <div class="album">
+                <div class="music-playing">
+                    <img src="./new songs/jugraafiya-song-still.png " id="musicc" alt="">
+                    <div class="music-details">
+                    <p class="music-heading">Jugraafiya - From "Super 30"</p>
+                    <p class="artist-music">Udit Narayan, Shreya Ghoshal</p>
+                    </div> <!--Music detils div closing here-->
+                    <div class="music-plus-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div><!--Album closing div-->
+            <!-- player controler -->
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" id="play-btn">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="1" max="100" class="progress-bar">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="controls-area">
+                    <img src="./Homework Assets/controls_icon1.png" class="control-area-img" style="height: 2.5rem;"  ="">
+                    <img src="./Homework Assets/controld_icon2.png" class="control-area-img" style="height: 2.5rem;">
+                    <img src="./Homework Assets/controls_icon3.png"  class="control-area-img" style="opacity: 0.5;"  ="">
+                    <img src="./Homework Assets/controls_icon4.png" class="control-area-img"  style="opacity: 0.5;" alt="">
+                    <img src="./Homework Assets/controls_icon5.png"  class="control-area-img" style="height: 2.5rem; alt="">
+                    <div class="volume-controler">
+                        <input type="range" min="1" max="100" class="volume-btn">
+                    </div><!--  volume controler -->
+                    <img src="./Homework Assets/album_icon2.png" class="control-area-img" style="height: 2.5rem;  alt="">
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+       </div><!--  music player -->
+   </div> <!--  main container -->
+</body>
+</html>
